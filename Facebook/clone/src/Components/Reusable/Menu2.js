@@ -3,9 +3,8 @@ import { Disc, Display, File, Gift, Paperclip, People, PeopleFill, PersonLinesFi
 
 export default function Menu2() {
   return (
-    <div className='content-left mb-20'>
+    <div className='content-left mb-20 daa'>
             <div className='d-flex align-items-center' style={{width:'300px'}}>
-                <b>hello</b>
             </div>
             
                 <div className='d-flex align-items-center'>

@@ -209,7 +209,12 @@ body{
 .overall{
   width: auto;
 }
-
+.Container-video{
+}
+iframe{
+  width: 560px;
+  height: 315px;
+}
 @media only screen and (max-width: 1300px) {
 .status-profile{
     position: relative;
@@ -295,6 +300,9 @@ body{
   .answer{
     display: none;
   }
+  .daa{
+    display: none;
+  }
   
   .status-profile{
     position: relative;
@@ -304,6 +312,14 @@ body{
     border: 3px solid rgb(2, 141, 255);
     border-radius: 30px;
   
+  }
+  iframe{
+    width: 260px;
+    height: 115px;
+  }
+  .overall{
+    width: 400px;
+    margin-left: 50px;
   }
  .content-status{
     display: grid;
